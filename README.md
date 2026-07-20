@@ -1,102 +1,120 @@
-# Hey, I'm James 👋
+# 🖥️ From Electrician to IT: Building a Cybersecurity Home Lab from Scratch
 
-⚡ Electrician transitioning into Cybersecurity & IT Infrastructure
+> **A real-world journey of career transition from Electrical Work into IT & Cybersecurity — documented from day one.**
 
----
-
-## 🙋 About Me
-
-I'm an active electrician making a full career transition into
-Cybersecurity with a focus on Cloud Security and AI Security.
-Rather than just studying theory, I chose to get hands-on —
-acquiring real enterprise server hardware and building a fully
-functional home lab completely from scratch.
-
-Coming from electrical work gave me a strong foundation in:
-- Physical infrastructure and systems thinking
-- Troubleshooting complex faults under pressure
-- Reading technical schematics and diagrams
-- Safety protocols and structured methodologies
-
-These skills translate directly into IT — and I'm building on
-them every day.
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
+[![Phase](https://img.shields.io/badge/Current%20Phase-Wazuh%20SIEM%20Complete-blue)]()
+[![Goal](https://img.shields.io/badge/Goal-Cloud%20%26%20AI%20Security-purple)]()
 
 ---
 
-## 🎯 Current Focus
+## 👤 About Me
 
-- 🔨 Building a 14-phase enterprise home lab from scratch
-- 📚 Studying for CompTIA Security+
-- 🔐 Learning Cloud Security & AI Security
-- 🖥️ Practicing on real Supermicro enterprise hardware
-- 🔍 Preparing to run real SOC analyst attack scenarios
+I am transitioning from a career in **electrical work** into **IT and Cybersecurity**, with a focus on **Cloud Security** and **AI Security**. Rather than just studying theory, I chose to get hands-on — acquiring real enterprise server hardware and building a functional home lab completely from scratch.
 
----
+This repository documents every step of that journey — from receiving unknown hardware with no documentation, physically inspecting and identifying every component, sourcing missing parts, setting up networking, installing a hypervisor, and ultimately building a full enterprise-grade security lab.
 
-## 🛠️ Skills Being Built
-
-### Hardware & Infrastructure
-![Supermicro](https://img.shields.io/badge/Supermicro-Enterprise%20Hardware-red)
-![Linux](https://img.shields.io/badge/Linux-Server%20Admin-yellow)
-![IPMI](https://img.shields.io/badge/IPMI-Remote%20Management-blue)
-
-### Virtualization & Cloud
-![Proxmox](https://img.shields.io/badge/Proxmox-Hypervisor-orange)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-K3s%20Cluster-blue)
-
-### Security Tools
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-green)
-![Nmap](https://img.shields.io/badge/Nmap-Network%20Scanning-blue)
-![Cowrie](https://img.shields.io/badge/Cowrie-Honeypot-red)
-![pfSense](https://img.shields.io/badge/OPNsense-Firewall-darkblue)
-
-### AI Security
-![AI Security](https://img.shields.io/badge/AI%20Security-LLM%20Testing-purple)
-![MLSecOps](https://img.shields.io/badge/MLSecOps-Pipeline%20Security-purple)
+> Coming from electrical work gave me a strong foundation in physical infrastructure, systems thinking, and troubleshooting — skills that translate directly into IT.
 
 ---
 
-## 🚀 Active Project
+## 🎯 Project Goals
 
-### 🖥️ [Cybersecurity Home Lab](https://github.com/JamesCyber369/Cybersecurity-homelab)
+- Build a fully functional enterprise home lab using virtualization
+- Learn hardware identification, inspection, and documentation
+- Configure server networking and remote management via IPMI
+- Deploy and manage operating systems on bare metal
+- Build cloud infrastructure skills using Proxmox
+- Practice cybersecurity with SIEM, IDS/IPS, and vulnerability scanning
+- Develop AI/LLM security skills on real deployed models
+- Document everything as a professional portfolio — including real troubleshooting, not just a finished result
 
-Building a full enterprise home lab from 3 Supermicro servers
-acquired with no documentation. Physically identified all
-hardware, confirmed functionality, and now building through
-14 phases of cybersecurity infrastructure and tooling.
+---
+
+## 🗺️ Project Phases
 
 | Phase | Project | Status |
 |---|---|---|
-| 01 | Hardware Identification & Inspection | ✅ Complete |
-| 02 | Network Setup & IPMI Access | ✅ Complete |
-| 03 | OS Installation — Proxmox VE | ✅ Complete |
-| 04 | Proxmox Configuration & First VM | ✅ Complete |
-| 05 | Firewall Deployment — OPNsense | 🔄 In Progress |
-| 06 | SIEM Deployment — Wazuh | ✅ Complete |
-| 07 | Kubernetes Cluster | ✅ Complete |
-| 08 | Private Cloud — OpenStack | ⏭️ Skipped |
-| 09 | Vulnerability Scanning | ✅ Complete |
-| 10 | Honeypot Deployment — Cowrie | ✅ Complete |
-| 11 | IDS/IPS — Suricata | 📋 Planned |
-| 12 | Infrastructure as Code | 📋 Planned |
-| 13 | AI/LLM Security Lab | 📋 Planned |
-| 14 | MLSecOps Pipeline | 📋 Planned |
+| [01](./01-hardware-identification/) | Hardware Identification & Inspection | ✅ Complete |
+| [02](./02-network-setup/) | Network Setup & IPMI Access | ✅ Complete |
+| [03](./03-os-installation/) | OS Installation — Proxmox VE | ✅ Complete |
+| [04](./04-proxmox-cluster/) | Proxmox Configuration & First VM | ✅ Complete |
+| [05](./05-pfsense-firewall/) | Firewall Deployment — OPNsense | 🔄 In Progress |
+| [06](./06-wazuh-siem/) | SIEM Deployment — Wazuh | ✅ Complete |
+| [07](./07-kubernetes/) | Kubernetes Cluster | ✅ Complete |
+| [08](./08-openstack-cloud/) | Private Cloud — OpenStack | 🔄 In Progress |
+| [09](./09-vulnerability-scanning/) | Vulnerability Scanning | 📋 Planned |
+| [10](./10-honeypot/) | Honeypot Deployment | 📋 Planned |
+| [11](./11-suricata-ids/) | IDS/IPS — Suricata | ✅ Complete |
+| [12](./12-terraform-ansible/) | Infrastructure as Code | 🔄 In Progress |
+| [13](./13-ai-llm-security/) | AI/LLM Security Lab | 📋 Planned |
+| [14](./14-mlsecops-pipeline/) | MLSecOps Pipeline | 📋 Planned |
 
 ---
 
-## 📜 Certifications
+## 🖥️ Lab Hardware
 
-| Certification | Status |
+### Current Active Setup
+
+This lab currently runs on **a single physical server**, with all phases implemented as virtual machines within a single Proxmox host.
+
+| Device | Model | Role | RAM | Status |
+|---|---|---|---|---|
+| **Active Server** | Supermicro X10SLH-N6-ST031 | Primary Lab Server — Proxmox Host | 16GB DDR3 | ✅ Active — Proxmox Installed |
+| Reserved Server 1 | Supermicro SSG-6028R | Reserved for future expansion | 32GB DDR3 | ⏸️ Offline |
+| Reserved Server 2 | Supermicro SYS-6018R-WTRT | Reserved for future expansion | 64GB DDR4 | ⏸️ Offline |
+
+### Active Server Specs
+
+| Component | Detail |
 |---|---|
-| CompTIA Security+ | 🔄 In Progress |
-| Certified AI Workforce Professional (CAIWP) | ✅ Complete |
+| **CPU** | Intel Xeon E3-1231 v3 @ 3.40GHz, 4 cores |
+| **RAM** | 16GB DDR3 ECC (expandable to ~32GB) |
+| **OS** | Proxmox VE 9.2.2 |
+| **Management IP** | 10.0.0.50 (Proxmox) / 10.0.0.243 (IPMI) |
 
 ---
 
-## 📫 Connect With Me
+## 🔄 The Electrical → IT Connection
 
-[![GitHub](https://img.shields.io/badge/GitHub-JamesCyber369-black)](https://github.com/JamesCyber369)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-James%20Sinclair-blue)](https://linkedin.com/in/james-sinclair-682286410)
+| Electrical Concept | IT Equivalent |
+|---|---|
+| Circuit breakers | Firewalls |
+| Cable runs & conduit | Network infrastructure |
+| Power distribution panels | Server power management |
+| Troubleshooting faults | Diagnosing hardware/software issues |
+| Reading electrical schematics | Reading network diagrams |
+| Safety lockout/tagout protocols | Security access controls |
+
+---
+
+## 📝 Update Log
+
+| Date | Update |
+|---|---|
+| 2026-05-31 | Project started — hardware received |
+| 2026-05-31 | All 3 servers physically inspected and identified |
+| 2026-05-31 | All 3 servers confirmed working via power-on test |
+| 2026-05-31 | Hardware shopping list compiled |
+| 2026-06-10 | Network setup — powerline adapters and switch configured |
+| 2026-06-10 | IPMI access achieved on active server |
+| 2026-06-10 | Scope decision — single server lab build, 2 servers reserved |
+| 2026-06-21 | Discovered server had prior production OPNsense configuration |
+| 2026-06-21 | Proxmox VE 9.2.2 installed — Phase 03 complete |
+| 2026-06-21 | Resolved NIC mapping mismatch — Proxmox web interface accessible |
+| 2026-06-21 | First VM deployed — Ubuntu Server 24.04.4 LTS — Phase 04 complete |
+| 2026-06-23 | Pivoted from pfSense to OPNsense — firewall VM deployed |
+| 2026-06-23 | Confirmed WAN internet access through firewall |
+| 2026-06-27 | Implemented network segmentation — internal bridge (vmbr1) created |
+| 2026-06-27 | Fixed WAN/LAN bridge misconfiguration |
+| 2026-06-27 | Used live kernel log monitoring to identify correct physical port |
+| 2026-06-27 | Got management laptop connected to firewall's LAN side via GUI |
+| 2026-07-01 | Deployed Wazuh SIEM from OVA — Phase 06 complete |
+| 2026-07-01 | Ubuntu-server-01 connected as first monitored Wazuh agent |
+| 2026-07-17 | K3s Kubernetes cluster deployed — Phase 07 complete |
+| 2026-07-17 | First pod (nginx) running on cluster — confirmed healthy |
+| TBD | OPNsense NAT/routing issue resolved — Phase 05 complete |
+| TBD | Kubernetes cluster deployed |
 
 ---
 
