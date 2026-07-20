@@ -52,17 +52,17 @@ Building a full enterprise home lab from 3 Supermicro servers acquired with no d
 
 | Phase | Project | Status |
 |---|---|---|
-| 01 | Hardware Identification & Inspection | ✅ Complete |
-| 02 | Network Setup & IPMI Access | ✅ Complete |
-| 03 | OS Installation — Proxmox VE | ✅ Complete |
-| 04 | Proxmox Configuration & First VM | ✅ Complete |
-| 05 | Firewall Deployment — OPNsense | 🔄 In Progress |
-| 06 | SIEM Deployment — Wazuh | ✅ Complete |
-| 07 | Kubernetes Cluster — K3s | ✅ Complete |
-| 08 | Private Cloud — OpenStack | ⏭️ Skipped |
-| 09 | Vulnerability Scanning — Nmap | ✅ Complete |
-| 10 | Honeypot Deployment — Cowrie | ✅ Complete |
-| 11 | IDS/IPS — Suricata | ✅ Complete |
+| [01](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/01-hardware-identification) | Hardware Identification & Inspection | ✅ Complete |
+| [02](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/02-network-setup) | Network Setup & IPMI Access | ✅ Complete |
+| [03](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/03-os-installation) | OS Installation — Proxmox VE | ✅ Complete |
+| [04](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/04-proxmox-cluster) | Proxmox Configuration & First VM | ✅ Complete |
+| [05](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/05-pfsense-firewall) | Firewall Deployment — OPNsense | 🔄 In Progress |
+| [06](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/06-wazuh-siem) | SIEM Deployment — Wazuh | ✅ Complete |
+| [07](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/07-kubernetes) | Kubernetes Cluster — K3s | ✅ Complete |
+| [08](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/08-openstack-cloud) | Private Cloud — OpenStack | ⏭️ Skipped |
+| [09](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/09-vulnerability-scanning) | Vulnerability Scanning — Nmap | ✅ Complete |
+| [10](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/10-honeypot) | Honeypot Deployment — Cowrie | ✅ Complete |
+| [11](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/11-suricata-ids) | IDS/IPS — Suricata | ✅ Complete |
 | 12 | Infrastructure as Code — Terraform/Ansible | 📋 Planned |
 | 13 | AI/LLM Security Lab | 📋 Planned |
 | 14 | MLSecOps Pipeline | 📋 Planned |
