@@ -47,7 +47,11 @@ I'm documenting my journey as I build and administer an enterprise-style environ
 
 ### 🖥️ [Cybersecurity Home Lab](https://github.com/JamesCyber369/Cybersecurity-homelab)
 
-Building a full enterprise home lab from 3 Supermicro servers acquired with no documentation. Physically identified all hardware, confirmed functionality, and building through 14 phases of cybersecurity infrastructure and tooling.
+An enterprise-style lab connecting my cybersecurity GRC and NIST RMF experience with hands-on systems engineering. Built on Supermicro hardware and Proxmox, it documents the infrastructure, technical constraints, troubleshooting, and control-validation work behind stronger security decisions.
+
+**Implemented highlights:** Windows Server 2022 Active Directory (domain controller, users, OUs, security groups), OPNsense and WireGuard split-tunnel VPN, network segmentation, Wazuh SIEM, Suricata IDS, Nmap, Wireshark packet analysis, K3s, and Cowrie.
+
+**Detection scenarios:** [SSH brute-force detection](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/scenarios/001-ssh-brute-force) and [privilege-escalation monitoring](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/scenarios/002-privilege-escalation).
 
 | Phase | Project | Status |
 |---|---|---|
@@ -58,7 +62,7 @@ Building a full enterprise home lab from 3 Supermicro servers acquired with no d
 | [05](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/05-pfsense-firewall) | Firewall Deployment — OPNsense | 🔄 In Progress |
 | [06](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/06-wazuh-siem) | SIEM Deployment — Wazuh | ✅ Complete |
 | [07](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/07-kubernetes) | Kubernetes Cluster — K3s | ✅ Complete |
-| [08](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/08-openstack-cloud) | Private Cloud — OpenStack | ⏭️ Skipped |
+| 08 | Private Cloud — OpenStack | ⏭️ Skipped |
 | [09](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/09-vulnerability-scanning) | Vulnerability Scanning — Nmap | ✅ Complete |
 | [10](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/10-honeypot) | Honeypot Deployment — Cowrie | ✅ Complete |
 | [11](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/11-suricata-ids) | IDS/IPS — Suricata | ✅ Complete |
@@ -66,6 +70,9 @@ Building a full enterprise home lab from 3 Supermicro servers acquired with no d
 | 13 | AI/LLM Security Lab | 📋 Planned |
 | 14 | MLSecOps Pipeline | 📋 Planned |
 
+**Additional completed exercises:** [Active Directory](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/additional-skills/windows-server-active-directory) · [WireGuard VPN](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/additional-skills/opnsense-wireguard-vpn) · [Packet Capture & Wireshark](https://github.com/JamesCyber369/Cybersecurity-homelab/tree/main/additional-skills/wireshark-packet-capture)
+
+*Next focus: documented Group Policy implementation and extending the lab with enterprise identity and security-control validation.*
 ---
 
 ## 📜 Certifications
