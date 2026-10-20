@@ -72,7 +72,7 @@ Building a full enterprise home lab from 3 Supermicro servers acquired with no d
 
 | Certification | Status |
 |---|---|
-| CompTIA Security+ | — |
+| CompTIA Security+ | ✅ Complete |
 | Certified AI Workforce Professional (CAIWP) | ✅ Complete |
 | AWS Certified Cloud Practitioner | ✅ Complete |
 
