@@ -1,46 +1,45 @@
 # Hey, I'm James 👋
 
-⚡ Electrician transitioning into Cybersecurity & IT Infrastructure
+**Cybersecurity GRC Professional | Security Assessments & RMF | Building Deeper Systems Engineering Expertise**
 
 ---
 
 ## 🙋 About Me
 
-I'm an active electrician making a full career transition into Cybersecurity with a focus on Cloud Security and AI Security. Rather than just studying theory, I chose to get hands-on — acquiring real enterprise server hardware and building a fully functional home lab completely from scratch.
+I'm a Cybersecurity Governance, Risk, and Compliance (GRC) professional with experience in security control assessments, NIST RMF, and federal security compliance.
+
+My focus is expanding beyond assessing security controls to developing a deeper understanding of the systems, networks, and infrastructure those controls are designed to protect.
+
+I believe effective security requires more than identifying vulnerabilities or compliance gaps. It requires understanding the technical constraints engineers face, how systems operate, and how security decisions affect business operations.
+
+I'm documenting my journey as I build and administer an enterprise-style environment from the ground up — from physical servers, virtualization, and Active Directory to Group Policy, network segmentation, firewalls, cloud infrastructure, and security monitoring.
+
+**Follow along as I bridge the gap between cybersecurity governance and hands-on systems engineering — one deployment, configuration, and troubleshooting challenge at a time.**
 
 ---
 
 ## 🎯 Current Focus
 
-- 🔨 Building a 14-phase enterprise home lab from scratch
-- 📚 Studying for CompTIA Security+
-- 🔐 Targeting Cloud Security & AI Security roles
-- 🖥️ Practicing on real Supermicro enterprise hardware
+- 🔐 Connecting NIST SP 800-53 / RMF control assessments with real-world implementation and operational constraints
+- 🖥️ Building and documenting enterprise-style infrastructure with Supermicro servers, Proxmox, Windows Server, and Linux
+- 👥 Developing Active Directory, user/group administration, least-privilege access, and Group Policy skills
+- 🌐 Practicing network segmentation, DNS/DHCP, routing, firewall rules, and VPN configuration
+- 🛡️ Applying security monitoring, vulnerability assessment, and remediation workflows to the environment
+- ☁️ Exploring hybrid systems administration across on-premises infrastructure and Azure/AWS
 
 ---
 
-## 🛠️ Skills Being Built
+## 🛠️ Technical Areas
 
-### Hardware & Infrastructure
-![Supermicro](https://img.shields.io/badge/Supermicro-Enterprise%20Hardware-red)
-![Linux](https://img.shields.io/badge/Linux-Server%20Admin-yellow)
-![IPMI](https://img.shields.io/badge/IPMI-Remote%20Management-blue)
+**Governance, Risk & Compliance:** NIST RMF • NIST SP 800-53 Rev. 5 • Security Control Assessments • Continuous Monitoring • POA&Ms • STIGs • eMASS • ServiceNow CAM/CSAM • Archer
 
-### Virtualization
-![Proxmox](https://img.shields.io/badge/Proxmox-Hypervisor-orange)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-K3s-blue)
-![Docker](https://img.shields.io/badge/Docker-Containers-blue)
+**Systems & Identity:** Windows Server • Linux • Active Directory • Users & Groups • Group Policy • IAM • Proxmox VE • VMware
 
-### Security Tools
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-green)
-![Suricata](https://img.shields.io/badge/Suricata-IDS/IPS-blue)
-![Nmap](https://img.shields.io/badge/Nmap-Network%20Scanning-blue)
-![Cowrie](https://img.shields.io/badge/Cowrie-Honeypot-red)
-![OPNsense](https://img.shields.io/badge/OPNsense-Firewall-darkblue)
+**Networking & Infrastructure:** OPNsense • VLANs & Segmentation • DHCP/DNS • NAT • WireGuard VPN • Supermicro Hardware
 
-### AI Security
-![AI Security](https://img.shields.io/badge/AI%20Security-LLM%20Testing-purple)
-![MLSecOps](https://img.shields.io/badge/MLSecOps-Pipeline%20Security-purple)
+**Security Operations:** Wazuh SIEM • Suricata IDS • Nmap • Wireshark • Cowrie Honeypot • Vulnerability Remediation
+
+**Cloud & Containers:** Microsoft Azure • AWS • Docker • Kubernetes/K3s
 
 ---
 
